@@ -39,11 +39,11 @@ cert_hosts:
 ### 架构图
 单Master架构
 
-![single-master](E:\360极速浏览器下载\install-k8-by-ansible\single-master.jpg)
+![single-master](./single-master.jpg)
 
 多Master架构
 
-![multi-master](E:\360极速浏览器下载\install-k8-by-ansible\multi-master.jpg)
+![multi-master](./multi-master.jpg)
 
 
 

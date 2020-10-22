@@ -38,12 +38,17 @@ cert_hosts:
 ## 3、一键部署
 ### 架构图
 单Master架构
-![image-20201022190552694](https://gitee.com/wyule/picture-bed/raw/master/assets/image-20201022190552694.png)
+
+![single-master](E:\360极速浏览器下载\install-k8-by-ansible\single-master.jpg)
 
 多Master架构
-![image-20201022190531147](https://gitee.com/wyule/picture-bed/raw/master/assets/image-20201022190531147.png)
 
-### 部署命令
+![multi-master](E:\360极速浏览器下载\install-k8-by-ansible\multi-master.jpg)
+
+
+
+部署命令
+
 单Master版：
 ```
 # ansible-playbook -i hosts single-master-deploy.yml -uroot -k
